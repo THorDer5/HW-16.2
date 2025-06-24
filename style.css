@@ -109,12 +109,12 @@ body{
     padding-bottom: 70px;
 }
 
+
 .main_section_ul::before{
     content: "";
-    display: block;
+    background-image: url(pictures.png);
     width: 500px;
-    height: 400px;
-    background-repeat: no-repeat ;
-    background-image: url(Group\ 1.png);
-    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+
 }
