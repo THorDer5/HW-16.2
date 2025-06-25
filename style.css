@@ -19,23 +19,31 @@ body{
 }
 
 .mainsection{
+    width: 100%;
     font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
 }
 
 .main_section_button{
+
     font-family: Roboto;
     font-size: 16px;
     font-weight: Bold;
-    display: flex;
+}
+
+.button_wrapper{
+     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .main_section_ul{
 
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
@@ -110,11 +118,44 @@ body{
 }
 
 
-.main_section_ul::before{
+
+.main_li_details::before{
     content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
     background-image: url(pictures.png);
-    width: 500px;
-    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+.main_li_punctual::before{
+    content: "";
+    display: block;
+    background-image: url(Group\ 2.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
     background-repeat: no-repeat;
 
+}
+
+.main_li-planning::before{
+    content: "";
+    display: block;
+    background-image: url(Group\ 3.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_li-modern::before{
+    content: "";
+    display: block;
+    background-image: url(Group\ 4.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
